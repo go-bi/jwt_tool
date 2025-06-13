@@ -1,0 +1,8 @@
+# 查看令牌
+```
+python3 jwt_tool.py <<JWT_TOKEN>>
+```
+# 破解密钥
+```
+python3 jwt_tool.py <<JWT_TOKEN>> -C -d <<DICT_FILE>>
+```
